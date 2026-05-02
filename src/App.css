@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Landing Page */
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.landing h1 {
+  color: #333;
+}
+
+.landing-img {
+  width: 350px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.landing-img:hover {
+  transform: scale(1.05);
+}
+
+.hint {
+  color: #555;
+}
+
+/* Form Section */
+.form-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.register-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74,144,226,0.5);
+}
+
+/* Button */
+button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+/* Messages */
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f7f6;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+.error { color: red }
+.success { color: green }

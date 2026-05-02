@@ -1,0 +1,13 @@
+.register{
+  background-color:#f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
